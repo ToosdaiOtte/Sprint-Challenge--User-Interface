@@ -112,13 +112,24 @@ p {
 .strategy {
     box-sizing: border-box;
     padding-top: 30px;
+    border-bottom: 1px dashed grey;
 }
 
+.how {
+    border-bottom: 1px dashed grey;
+}
 .top {
     display: flex;
  
 }
 
+.where {
+    border-bottom: 1px dashed grey;
+}
+
+.collaboration {
+    border-bottom: 1px dashed grey;
+}
 .bottom {
     display: flex;
 }
