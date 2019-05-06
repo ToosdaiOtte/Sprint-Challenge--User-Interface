@@ -56,6 +56,35 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navImg {
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+
+header nav {
+    box-sizing: border-box;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+    padding-left: 60px;
+    padding-right: 10px;
+}
+
+.headerImg {
+    box-sizing: border-box;
+    padding-bottom: 40px;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -104,14 +133,52 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+ 
+.box1 {
+    background-color: #189B93;
+}
 
+.box2 {
+    background-color: yellow;
+}
+
+.box3 {
+    background-color: #9fbfdf;
+}
+
+.box4 {
+    background-color: #ffae71;
+}
+
+.box5 {
+    background-color: #e1275f;
+}
+
+.box6 {
+    background-color: #228b22;
+}
+
+.box7 {
+    background-color: blueviolet;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: Dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
