@@ -112,44 +112,60 @@ p {
     line-height: 1.4;
 }
 
+
 main {
+    display: flex;
     box-sizing: border-box;
     padding-left: 5px;
 }
 
-.strategy {
-    margin-right: 20px;
-    box-sizing: border-box;
-    padding-top: 30px;
-    border-bottom: 1px dashed black;
-}
-
-.how {
-    margin-left: 20px;
-    box-sizing: border-box;
-    padding-top: 30px;
-    border-bottom: 1px dashed black;
-}
-.top {
-    display: flex;
- 
-}
-
-.where {
+.left {
     margin-right: 25px;
     box-sizing: border-box;
-    padding-top: 50px;
+    padding-top: 30px;
     border-bottom: 1px dashed black;
 }
 
-.collaboration {
+.dropbtn {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    border: 1px solid black
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+
+  .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  
+ 
+
+.right {
     margin-left: 25px;
     box-sizing: border-box;
     padding-top: 50px;
     border-bottom: 1px dashed black;
-}
-.bottom {
-    display: flex;
 }
 
 button {
@@ -166,7 +182,7 @@ main h2 {
    margin-top: 15px;
 }
 
-.workTogether {
+.bottom {
     box-sizing: border-box;
     padding: 40px 10px 30px 10px;
 }
@@ -190,3 +206,5 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
