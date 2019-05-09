@@ -56,33 +56,39 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* My CSS starts here */
+
+.about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
 header {
     display: flex;
     justify-content: space-between;
 }
+
 
 .navImg {
     box-sizing: border-box;
     padding-top: 20px;
 }
 
-header nav {
+section .navImg {
     box-sizing: border-box;
     padding-top: 40px;
-    padding-bottom: 40px;
+}
+
+header nav {
+    box-sizing: border-box;
+    padding: 40px 0;
 }
 
 header nav a {
     text-decoration: none;
     color: black;
     box-sizing: border-box;
-    padding-left: 60px;
-    padding-right: 10px;
-}
-
-.headerImg {
-    box-sizing: border-box;
-    padding-bottom: 40px;
+    padding: 0 10px 0 60px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -91,112 +97,85 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+.headerContent {
+    border-bottom: 1px dashed black;
+    box-sizing: border-box;
+    padding: 0 0 20px 15px;
+}
+
+.headerContent h1 {
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+
 p {
     line-height: 1.4;
 }
 
-.container {
-    width: 800px;
-    margin: 0 auto;
+main {
+    box-sizing: border-box;
+    padding-left: 5px;
 }
 
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
+.strategy {
+    margin-right: 20px;
+    box-sizing: border-box;
+    padding-top: 30px;
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-.middle-content {
-    margin-bottom: 20px;
+.how {
+    margin-left: 20px;
+    box-sizing: border-box;
+    padding-top: 30px;
     border-bottom: 1px dashed black;
 }
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
+.top {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
  
-.box1 {
-    background-color: teal;
 }
 
-.box2 {
-    background-color: gold;
+.where {
+    margin-right: 25px;
+    box-sizing: border-box;
+    padding-top: 50px;
+    border-bottom: 1px dashed black;
 }
 
-.box3 {
-    background-color: cadetblue;
+.collaboration {
+    margin-left: 25px;
+    box-sizing: border-box;
+    padding-top: 50px;
+    border-bottom: 1px dashed black;
 }
-
-.box4 {
-    background-color: coral;
-}
-
-.box5 {
-    background-color: crimson;
-}
-
-.box6 {
-    background-color: forestgreen;
-}
-
-.box7 {
-    background-color: darkorchid;
-}
-
-.box8 {
-    background-color: hotpink;
-}
-
-.box9 {
-    background-color: indigo;
-}
-
-.box10 {
-    background-color: Dodgerblue;
-}
-.bottom-content {
+.bottom {
     display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
 }
 
-.bottom-content .text-container {
-    padding-right: 4%;
+button {
+    margin: 20px 0;
+    background: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding: 7px 20px;
 }
 
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+
+main h2 {
+   margin-top: 15px;
+}
+
+.workTogether {
+    box-sizing: border-box;
+    padding: 40px 10px 30px 10px;
 }
 
 footer {
     width: 100%;
     background: black;
 }
+
 
 footer nav {
     width: 60%;
